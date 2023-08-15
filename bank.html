@@ -7,11 +7,14 @@
     <title>Bank Calculation</title>
   </head>
   <body>
-    <main>
-      <div class="bg-cyan-300 mt-12">
+    <header>
+        <h2 class="text-violet-700 text-4xl text-center font-medium ">Baap Er Bank</h2>
+    </header>
+    <main class="mx-4">
+      <div class="bg-cyan-300 mt-4">
         <div class="container px-6 py-8 mx-auto">
           <h1
-            class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white"
+            class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white"
           >Bank Account
           </h1>
 
@@ -52,8 +55,9 @@
           </div>
         </div>
 
-        <div
-          class="flex gap-5 lg:flex mt-12 pb-2 w-9/12 justify-between  mx-auto"
+        <section>
+            <div
+          class="grid grid-cols-1 lg:grid-cols-2 gap-5  mt-8 pb-2 w-9/12 justify-between  mx-auto"
         >
           <!-- Deposit-Input -->
           <div class="bg-green-400 p-12 rounded-lg">
@@ -63,7 +67,7 @@
                 id="deposit-input"
                 type="text"
                 placeholder="please amount "
-                class="lg:px-2 sm:py-1.5 lg:py-2.5 placeholder-gray-400/70 bg-white border border-gray-200 rounded-lg"
+                class="px-1 -ml-8 lg:-ml-0 lg:px-2 py-0 lg:py-2.5 placeholder-gray-400/70 bg-white border border-gray-200 rounded-lg"
               />
             </div>
             <button
@@ -82,7 +86,7 @@
                 id="withdraw-input"
                 type="text"
                 placeholder="please amount "
-                class="lg:px-2 sm:py-1.5 lg:py-2.5 text-gray-700 placeholder-gray-400/70 bg-white border border-gray-200 rounded-lg"
+                class="px-1 -ml-8 lg:-ml-0 lg:px-2 sm:py-1.5 lg:py-2.5 text-gray-700 placeholder-gray-400/70 bg-white border border-gray-200 rounded-lg"
               />
             </div>
             <button
@@ -93,6 +97,7 @@
             </button>
           </div>
         </div>
+        </section>
       </div>
 
       <script src="js/deposit.js"></script>
